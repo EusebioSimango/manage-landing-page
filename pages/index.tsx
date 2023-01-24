@@ -2,9 +2,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { useEffect } from 'react'
-import { Navbar }  from '../components/Navbar'
-import googleIcon from '../public/google.png'
-
+import { Header }  from '../components/Header'
+import IllustrationIntro from '../public/images/illustration-intro.svg'
 
 
 export default function Home() {
@@ -13,7 +12,10 @@ export default function Home() {
 
   return (
     <div className="">
-      MANAGE LANDING PAGE
+      <Header  />
+      <section id="intro" className="sm:w-[100%]">
+        <Image src={IllustrationIntro}/>
+      </section>
     </div>
   )
 }
