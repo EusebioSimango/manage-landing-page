@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const { fontFamily } = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -19,6 +20,9 @@ module.exports = {
         Gray: {
           300: '#fafafa',
         }
+      },
+      fontFamily: {
+        beVietnamPro: ['var(--font-bevietnampro)'],
       }
     },
   },
