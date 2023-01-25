@@ -2,7 +2,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Header }  from '../components/Header'
-import { Title } from "../components/Title"
+import { Title, Paragraph } from "../components/Text"
 import IllustrationIntro from '../public/images/illustration-intro.svg'
 import favicon from '../public/images/favicon-32x32.png'
 
@@ -21,6 +21,8 @@ export default function Home() {
       <section id="intro" className="sm:w-[100%]">
         <Image alt='An Illustration Intro to Manage' src={IllustrationIntro}/>
         <Title>Bring everyone together to build better products.</Title>
+        <Paragraph>Manage makes it simple for software teams to plan day-to-day 
+  tasks while keeping the larger team goals in view.</Paragraph>
       </section>
     </div>
   )
