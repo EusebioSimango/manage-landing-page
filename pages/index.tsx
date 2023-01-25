@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Header }  from '../components/Header'
 import { Title, Paragraph } from "../components/Text"
+import { GetStartedButton } from '../components/GetStartedButton'
 import IllustrationIntro from '../public/images/illustration-intro.svg'
 import favicon from '../public/images/favicon-32x32.png'
 
@@ -23,6 +24,7 @@ export default function Home() {
         <Title>Bring everyone together to build better products.</Title>
         <Paragraph>Manage makes it simple for software teams to plan day-to-day 
   tasks while keeping the larger team goals in view.</Paragraph>
+        <GetStartedButton />
       </section>
     </div>
   )
