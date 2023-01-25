@@ -19,7 +19,7 @@ export default function Home() {
         <title>Frontend Mentor | Manage landing page</title>
       </Head>
       <Header  />
-      <main className="fixed right-0 px-9 w-[100vw] max-h-[calc(100vh-24px)] top-24 overflow-y-auto back">
+      <main className="fixed right-0 px-9 w-[100vw] max-h-[calc(100vh-96px)] top-24 overflow-y-auto back">
         <section id="intro" className="sm:w-[100%]">
         <Image alt='An Illustration Intro to Manage' src={IllustrationIntro}/>
         <Title>Bring everyone together to build better products.</Title>
