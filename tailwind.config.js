@@ -14,11 +14,12 @@ module.exports = {
           700: '#1d1e25',
         },
         Red: {
-          300: '#f25f3a',
           400: '#ffefeb',
+          500: '#f25f3a',
+          
         },
         Gray: {
-          300: '#fafafa',
+          400: '#fafafa',
         }
       },
       fontFamily: {
